@@ -1,7 +1,5 @@
 #!/usr/bin/env python
-from Model.Block import Block
-from Service.BlockFunctions import *
-from datetime import datetime
+from service.blockfunctions import *
 
 def run():
     block_chain = [initialize_genesis_block()]

@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from Model.Block import Block
+from model.block import Block
 from datetime import datetime
 
 def initialize_genesis_block():
