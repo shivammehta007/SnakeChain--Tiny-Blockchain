@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 from service.blockfunctions import *
 
+block_chain = [initialize_genesis_block()]
+
 def run():
-    block_chain = [initialize_genesis_block()]
     max_number_of_blocks = 20
     previous_block = block_chain[0]
 
